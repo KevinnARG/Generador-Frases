@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 180vh;
+    background-image: linear-gradient(to right, rgb(26, 145, 205), rgb(98, 168, 224));
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 23vh;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(38, 52, 97, 0.4);
+    font-family: 'Caveat', cursive;
+}
+
+#phrase {
+    color: white;
+    font-family: Verdana;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vh;
+}
+
+#author {
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+}
+
+#newPhrase {
+    width: 50vh;
+    border-width: 0px;
+    height: 6vh;
+    background-image: linear-gradient(to right, rgb(26, 145, 205), rgb(98, 168, 224));
+    justify-content: center;
+    margin-left: 65vh;
+    margin-top: 35vh;
+    border-radius: 10px;
+    color: white;
+    font-family: "East Sea Dokdo", cursive;
+    font-size: 30px;
+    position: absolute;
+}
+
+#newPhrase:hover {
+    background-image: linear-gradient(to right, rgb(98, 168, 224), rgb(58, 157, 207));
+}
+
+#newPhrase:active {
+    transform: scale(1.05)
+}
